@@ -5,6 +5,7 @@
 <mapper namespace="com.atguigu.gmall.manage.mapper.PmsBaseAttrInfoMapper">
 
     <select id="selectAttrValueListByValueId"  resultMap="selectAttrValueListByValueIdMap">
+
         SELECT
           ba.*,ba.id as ba_id,bv.*,bv.id as bv_id
         FROM
